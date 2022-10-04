@@ -9,7 +9,10 @@ Resources:
       InstanceType: t2.micro
 ```
 
-## EC2 instance with 
+## EC2 instance with,
+- Elastic IP
+- Security Group for SSH(22)
+- Security Group for CIDR 
 ```
 Resources:
   MyInstance:
